@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INCONNU BOY OFFUSCATOR</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🛡️ INCONNU BOY OFFUSCATOR</h1>
+    <div class="toggle-theme">
+      <label class="switch">
+        <input type="checkbox" id="themeSwitch" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+
+  <nav class="dashboard">
+    <button id="menuBtn">⋮</button>
+    <div id="dashboardContent" class="hidden">
+      <a href="#upload">Uploader un fichier</a>
+      <a href="#paste">Coller le code</a>
+      <a href="#choose">Choisir un type</a>
+      <a href="#obfuscate">Obfusquer</a>
+      <a href="https://whatsapp.com/channel/0029Vb6T8td5K3zQZbsKEU1R" target="_blank">🔗 Channel WhatsApp</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="upload">
+      <h2>📁 Uploader un fichier</h2>
+      <input type="file" id="fileInput" />
+    </section>
+
+    <section id="paste">
+      <h2>✏️ Coller le contenu du fichier</h2>
+      <textarea id="codeInput" rows="10" placeholder="Collez votre code ici..."></textarea>
+    </section>
+
+    <section id="choose">
+      <h2>🎯 Choisissez un type d'obfuscation</h2>
+      <select id="obfuscatorType">
+        <option value="1">Obfuscator 1</option>
+        <option value="2">Obfuscator 2</option>
+        <option value="3">Obfuscator 3</option>
+        <option value="4">Obfuscator 4</option>
+        <option value="5">Obfuscator 5</option>
+        <option value="6">Obfuscator 6</option>
+        <option value="7">Obfuscator 7</option>
+      </select>
+    </section>
+
+    <section id="obfuscate">
+      <button id="obfuscateBtn">🚀 Obfusquer maintenant</button>
+      <pre id="output"></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>Développé par INCONNU BOY • <a href="https://whatsapp.com/channel/0029Vb6T8td5K3zQZbsKEU1R" target="_blank">Support WhatsApp</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+  </html>
