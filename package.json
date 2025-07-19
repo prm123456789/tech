@@ -1,0 +1,15 @@
+{
+  "name": "inconnu-boy-offuscator",
+  "version": "1.0.0",
+  "description": "Un site d'obfuscation JavaScript avec 7 types d'obfuscation par INCONNU BOY",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=./index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "author": "INCONNU BOY",
+  "license": "MIT"
+}
